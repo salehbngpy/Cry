@@ -21,12 +21,6 @@ sudo bash install.sh
 ```
 
 ```
-python cry.py
-```
-
-
-
-```
 
 python cry.py
 ```
