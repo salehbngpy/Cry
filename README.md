@@ -40,5 +40,3 @@ git clone https://github.com/salehbngpy/Cry.git
 apt install python  
 sudo bash install.sh  
 python cry.py  ```
-
-<span style="color: #888; font-size: 0.9em;"> ⚠️ **Warning:** This tool is for educational and penetration testing purposes only. </span> 
