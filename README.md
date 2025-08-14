@@ -1,50 +1,43 @@
-# Cry
-Cry is a Trojan for penetration testing of Windows operating systems, the Trojan is written in C language.
+# <span style="color: #ff0000;">Cry</span>  
+<span style="color: #555;">A stealthy Windows Trojan for penetration testing, written in pure C.</span>  
 
+---
 
-## COMMANDS 
-        cd <dir>---> change directory
-        download <file> ---> download from target
-        upload <file> ---> upload file on target
-        run <file> ---> run file on target
-        pshell <command> ---> powershell command
-        mkdir ---> make directory on target
-        rm ---> remove file
-        rmdir ---> remove directory
-        off ---> shutdown target system
-        rest ---> restart target system
-        speak <text> ---> Text to speech conversion on the target system
-        sleep ---> System goes to sleep mode
-        logout ---> User logging out of the target system
-        clean ---> Cleaning the Recycle Bin
-        ls ---> View files in this directory
-        pwd ---> View the current route
-        ps ---> View active processes
-        kill <nameprocess> ---> kill process
-        monitor on ---> Turn on the monitor
-        monitor off ---> Turn off the monitor     
-        drive ---> View drivers
-        open <name> ---> open cd-rom
+## <span style="color: #ff6600;">COMMANDS</span>  
 
+| Command                     | Description                                  |  
+|-----------------------------|----------------------------------------------|  
+| `cd <dir>`                  | Change directory                            |  
+| `download <file>`           | Download a file from the target             |  
+| `upload <file>`             | Upload a file to the target                 |  
+| `run <file>`                | Execute a file on the target                |  
+| `pshell <command>`          | Run a PowerShell command                    |  
+| `mkdir`                     | Create a directory                          |  
+| `rm`                        | Delete a file                               |  
+| `rmdir`                     | Remove a directory                          |  
+| `off`                       | Shut down the target system                 |  
+| `rest`                      | Restart the target system                   |  
+| `speak <text>`              | Convert text to speech (TTS)                |  
+| `sleep`                     | Put the system into sleep mode              |  
+| `logout`                    | Log out the current user                    |  
+| `clean`                     | Clear the Recycle Bin                       |  
+| `ls`                        | List files in the current directory         |  
+| `pwd`                       | Show the current working directory          |  
+| `ps`                        | List active processes                       |  
+| `kill <nameprocess>`        | Terminate a process                         |  
+| `monitor on`                | Turn the monitor on                         |  
+| `monitor off`               | Turn the monitor off                        |  
+| `drive`                     | List available drives                       |  
+| `open <name>`               | Open the CD-ROM drive                       |  
 
-# install 
+---
 
-```
-apt install git
-```
+## <span style="color: #009900;">INSTALLATION</span>  
 
-```
-git clone https://github.com/salehbngpy/Cry.git
-```
-
-```
-apt install python
-```
-
-```
-sudo bash install.sh
-```
-
-```
-python cry.py
-```
+```bash
+apt install git  
+git clone https://github.com/salehbngpy/Cry.git  
+apt install python  
+sudo bash install.sh  
+python cry.py  
+<span style="color: #888; font-size: 0.9em;"> ⚠️ **Warning:** This tool is for educational and penetration testing purposes only. </span> ```
