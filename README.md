@@ -12,9 +12,9 @@
 | `upload <file>`             | Upload a file to the target                 |  
 | `run <file>`                | Execute a file on the target                |  
 | `pshell <command>`          | Run a PowerShell command                    |  
-| `mkdir`                     | Create a directory                          |  
-| `rm`                        | Delete a file                               |  
-| `rmdir`                     | Remove a directory                          |  
+| `mkdir <dir>`               | Create a directory                          |  
+| `rm <file>`                 | Delete a file                               |  
+| `rmdir <dir>`               | Remove a directory                          |  
 | `off`                       | Shut down the target system                 |  
 | `rest`                      | Restart the target system                   |  
 | `speak <text>`              | Convert text to speech (TTS)                |  
