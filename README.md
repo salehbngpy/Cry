@@ -2,7 +2,7 @@
 Cry is a Trojan for penetration testing of Windows operating systems, the Trojan is written in C language.
 
 
-# COMMANDS 
+## COMMANDS 
         cd <dir>---> change directory
         download <file> ---> download from target
         upload <file> ---> upload file on target
