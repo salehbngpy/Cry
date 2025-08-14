@@ -39,4 +39,4 @@ apt install git
 git clone https://github.com/salehbngpy/Cry.git  
 apt install python  
 sudo bash install.sh  
-python cry.py  ```
+python cry.py 
